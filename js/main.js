@@ -22,13 +22,13 @@ function multiplicar(valor1, valor2) {
 //paso 2: elija la marca de la bebida que desea comprar, con A, B, y C
 
 while (cantidad != 0) {
-    cantidad = parseInt(prompt("Ingresar cantidad de bebida que desea, recuerde que 0 termina la carga"));
+    cantidad = parseInt(prompt("Ingresa la cantidad de bebidas que desea, recorda que 0 termina la carga"));
 
     if (cantidad === 0) {
         break;
     }
 
-    marcaBebida = prompt("Ingrese la marca de la bebida que desee: \n\ Si quiere bebida A ingrese = A \n\ Si quiere bebida B ingrese = B \n\ Si quiere bebida C ingrese = C ");
+    marcaBebida = prompt("Ingresa la marca de la bebida que desea: \n\ Si quiere bebida A ingrese = A \n\ Si quiere bebida B ingrese = B \n\ Si quiere bebida C ingrese = C ");
 
     switch (marcaBebida) {
         case "A":
@@ -45,19 +45,20 @@ while (cantidad != 0) {
             break;
         default:
             alert("Operación invalida");
-            break;    
+            break;
+             
     }
 
     if (cantidad >= 10) {
         valorEnvio = 0
-        alert("Su costo de envio es $"+ valorEnvio);
+        alert("Su costo de envio es $ "+ valorEnvio);
     }
     else if (cantidad >= 5) {
         valorEnvio = 100
-        alert("Su costo de envio es $"+ valorEnvio);
+        alert("Su costo de envio es $ "+ valorEnvio);
     }
     else {
         valorEnvio = 200
-        alert("Su costo de envio es $"+ valorEnvio);
+        alert("Su costo de envio es $ "+ valorEnvio);
     }
   }
