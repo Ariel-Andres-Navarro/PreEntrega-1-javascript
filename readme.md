@@ -1,1 +1,1 @@
-Inicio de proyecto de curso de javascript
+Inicio de proyecto de tienda de vinos de curso de javascript segunda entrega.
